@@ -108,6 +108,23 @@ export default function Home() {
         <span style={pill}>✨ 50 free pages/month, no card</span>
       </div>
 
+      <div style={{
+          margin: "20px 0 24px",
+          maxWidth: 320,
+          marginLeft: "auto", marginRight: "auto",
+          borderRadius: 14, overflow: "hidden",
+          border: "1px solid #1e242c",
+          background: "#0a0e16",
+      }}>
+        <video
+          src="/docs-demo.mp4"
+          poster="/docs-demo-poster.png"
+          autoPlay muted loop playsInline
+          style={{ width: "100%", display: "block" }}
+          aria-label="ANANTA Docs — privacy-first document Q&A demo"
+        />
+      </div>
+
       {/* Upload */}
       <div style={{
           border: "2px dashed #1e242c", borderRadius: 14,
